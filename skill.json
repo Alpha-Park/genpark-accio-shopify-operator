@@ -1,0 +1,10 @@
+{
+  "name": "genpark-accio-shopify-operator",
+  "version": "1.0.0",
+  "description": "GenPark Accio Shopify Operator - Cart abandonment recovery probability predictor, inventory reorder point (ROP) solver, and dynamic tier bundling revenue optimizer with zero dependencies.",
+  "tools": [
+    "predict_cart_abandonment_recovery",
+    "calculate_inventory_reorder_point_and_rop",
+    "optimize_dynamic_tier_bundling"
+  ]
+}
