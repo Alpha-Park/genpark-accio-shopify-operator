@@ -51,8 +51,7 @@ def optimize_dynamic_tier_bundling(
     return json.dumps(res, indent=2)
 
 def main():
-    print("Testing Shopify Operator:")
-    print(predict_cart_abandonment_recovery(120.0, 3, 8.5, 2))
+    mcp.run(transport="stdio")
 
 if __name__ == "__main__":
     main()
